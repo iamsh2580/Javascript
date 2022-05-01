@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //나누기 연산 : 계산기로 계산한 값
+        var num =10%3;
+        console.log(num)
+
+        //비교연산자
+        console.log(3=='3') //문자3을 숫자로 자동변환하여 비교
+        console.log(3==='3') //자동변환x
+
+        console.log(0==false) //boolean은 f>0 t>1로 자동변환
+        console.log(0===false)//=== (3개)는 그냥..타입까지 확인
+
+        console.log(null == undefined) //object타입,undefined타입 둘 다 값이 없어
+        console.log(null === undefined) //타입까지 확인 
+
+        var num = 312;
+        console.log("백의 자리 이하 버린 결과>>" , num-(num)%100)
+
+        var num =456;
+        console.log("백의 자리 이하 버린 결과>>" , parseInt(num/100)*100)
+
+    </script>
+</body>
+</html>
